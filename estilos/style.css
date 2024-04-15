@@ -38,8 +38,9 @@ main {
     border-radius: 1.25rem;
     box-shadow: 0rem 0rem 0.625rem rgba(0, 0, 0, 0.450);
 
-    transition: width .3s, height .3s; /*transição de mudança de tela*/
-    transition-timing-function: ease;
+    /*transição de mudança de tela*/
+    transition: width .3s, height .3s; 
+    transition-timing-function: ease; /*suavizar a transição*/
 }
 
 .login > .imagem {
@@ -53,4 +54,13 @@ main {
 .login > .formulario {
     display: block;
     padding: 0.625rem;
+}
+
+.formulario > h1 {
+    text-align: center;
+    margin-bottom: 0.625rem;
+}
+
+.formulario > p {
+    font-size: 0.8rem;
 }

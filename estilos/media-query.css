@@ -42,13 +42,22 @@ Grandes telas: acima de 1200px (75rem)
     }
 
     .login > .imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     .login > .formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
+
+    .formulario > h1 {
+        font-size: 2rem;
+    }
+
+    .formulario > p {
+        font-size: 1.2rem;
+    }
 }
+
