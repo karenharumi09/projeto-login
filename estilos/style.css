@@ -91,7 +91,8 @@ form > div.campo {
 .campo > input {
     background-color: #6cd3cf;
     font-size: 1rem;
-    width: 90%;    
+    width: 80%;    
+    height: 90%;
     border: 0rem;
     border-radius: 0.5rem;
     padding: 0.25rem;
